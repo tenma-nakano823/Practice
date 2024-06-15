@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Slot.css">
+    <title>スロット</title>
+</head>
+<body>
+    <p id="title">SLOT</p>
+    <div align="center">
+        <button id="start_btn">Start</button>
+    </div>
+    <div align="center">
+        <div id="slotParts">
+            <div id="slotNumber">
+                <p id="slot0">0</p>
+            </div>
+            <input type="button" value="Stop" id="stop0_btn">
+        </div>
+        <div id="slotParts">
+            <div id="slotNumber">
+                <p id="slot1">0</p>
+            </div>
+            <input type="button" value="Stop" id="stop1_btn">
+        </div>
+        <div id="slotParts">
+            <div id="slotNumber">
+                <p id="slot2">0</p>
+            </div>
+            <input type="button" value="Stop" id="stop2_btn">
+        </div>
+    </div>
+    <div id="popup-wrapper" onclick="resultAlert()">
+        <div id="popup-inside">
+            <div id="close">x</div>
+                <div id="message">
+                <h2 id="txt"></h2>
+                </div>
+            </div>
+        </div>          
+    </div>
+    <script src="./js/Slot.js"></script>
+</body>
+</html>
